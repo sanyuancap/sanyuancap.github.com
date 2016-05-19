@@ -13,9 +13,8 @@ tagline: cjy
 author :
   name : sanyuancap
   email : sanyuancap@foxmail.com
-  github : https://github.com/sanyuancap
-  twitter : https://twitter.com/sanyuancap
-  feedburner : feedname
+  github : sanyuancap
+  twitter : sanyuancap
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
