@@ -1,17 +1,19 @@
 ---
 layout: post
-title: "关于推送notifications"
+title: "关于推送notifications的代码记录"
 description: ""
-category: 
-tags: []
+category: cocos2d
+tags: [推送,cocos2d]
 ---
 {% include JB/setup %}
 
-  
+
+关于推送notifications的代码记录
+=================
+
     /*推送代码*/
     [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
-    
     UILocalNotification *notification=[[UILocalNotification alloc] init];
     if (notification != nil)
     {
