@@ -1,12 +1,16 @@
 ---
 layout: post
-title: "match pic of ipad"
+title: "适配ipad各种版本"
 description: ""
-category: 
-tags: []
+category: cocos2dx
+tags: [适配]
 ---
 {% include JB/setup %}
-#define SCALEFACTORX WINSIZE.width/480
-#define SCALEFACTORY WINSIZE.height/800
+
 适配ipad各种版本
+==========
+
+    #define SCALEFACTORX WINSIZE.width/480
+    #define SCALEFACTORY WINSIZE.height/800
+
 
