@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "blink words"
+title: "如果制作闪光效果"
 description: ""
-category: 
-tags: []
+category: cocos2d-js
+tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-#如果制作闪光标题
+如果制作闪光效果
+========
 
     var MyLayer = cc.Layer.extend({
         isMouseDown:false,
@@ -29,9 +30,13 @@ tags: []
             var gameTitle = cc.Sprite.create(s_GameTitle);
             gameTitle.setScale(this.scaleRate);
             var spark = cc.Sprite.create(s_Spark);
-            clip.addChild(gameTitle, 1);//先添加标题,会完全显示出来,因为跟模板一样大小
+            
+            //先添加标题,会完全显示出来,因为跟模板一样大小
+            clip.addChild(gameTitle, 1);
             spark.setPosition(-size.width / 2,0);
-            clip.addChild(spark,2);//会被裁减
+            
+            //会被裁减
+            clip.addChild(spark,2);
             clip.setScaleY(1.2);
             this.addChild(clip,4);
      
@@ -39,14 +44,20 @@ tags: []
             var moveBackAction = cc.MoveTo.create(0.6, cc.p(-clipSize.width, 0));
             var seq = cc.Sequence.create(moveAction, moveBackAction);
             var repeatAction = cc.RepeatForever.create(seq);
-            spark.runAction(repeatAction);//进行左右移动的重复动作
+            
+            //进行左右移动的重复动作
+            spark.runAction(repeatAction);
      
         },
-         clipper : function(){  //创建以标题作为大小的模板,超出标题部分都会被裁掉
+        
+        //创建以标题作为大小的模板,超出标题部分都会被裁掉
+         clipper : function(){  
             var clipper = cc.ClippingNode.create();
             var gameTitle = cc.Sprite.create(s_GameTitle);
             gameTitle.setScale(this.scaleRate);
-            clipper.setStencil(gameTitle);//创建以标题作为大小的模板
+            
+            //创建以标题作为大小的模板
+            clipper.setStencil(gameTitle);
             clipper.setAlphaThreshold(0);
             clipper.setContentSize(cc.size(gameTitle.getContentSize().width, gameTitle.getContentSize().height));
             return clipper;
