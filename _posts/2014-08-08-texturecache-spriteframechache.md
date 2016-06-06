@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TextureCache和SpriteFrameChache对比"
+title: "cocos2dx学习之TextureCache、SpriteFrameChache"
 description: ""
 category: cocos2dx
 tags: [TextureCache,SpriteFrameChache]

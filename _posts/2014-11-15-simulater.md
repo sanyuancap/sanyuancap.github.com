@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "模拟器左下方数值都代表了什么？"
+title: "cocos2dx学习之模拟器左下方数值都代表了什么？"
 description: ""
 category: cocos2dx
 tags: [模拟,cocos2dx]

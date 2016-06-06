@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "学习retain and release"
+title: "cocos2dx学习之retain、release"
 description: ""
 category: cocos2dx
 tags: [retain,release]

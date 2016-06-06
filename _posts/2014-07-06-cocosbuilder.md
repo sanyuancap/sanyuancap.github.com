@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "cocosbuilder属性对照"
+title: "cocos2dx学习之cocosbuilder属性对照"
 description: ""
 category: cocos2dx
 tags: [cocosbuilder]

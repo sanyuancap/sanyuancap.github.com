@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "曲线的实现"
+title: "cocos2dx学习之曲线的实现"
 description: ""
 category: cocos2dx
 tags: [ParallaxNode]

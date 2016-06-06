@@ -2,7 +2,7 @@
 layout: post
 title: "framework和lib的区别"
 description: ""
-category: cocos2dx
+category: C++
 tags: [framework,lib]
 ---
 {% include JB/setup %}

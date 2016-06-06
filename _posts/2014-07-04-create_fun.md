@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "关于CREATE_FUNC宏定义"
+title: "cocos2dx学习之关于CREATE_FUNC宏定义"
 description: ""
 category: cocos2dx
 tags: [CREATE_FUNC]

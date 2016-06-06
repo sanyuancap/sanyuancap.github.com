@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "开关控件menuItemToggle"
+title: "cocos2dx学习之开关控件menuItemToggle"
 description: ""
 category: cocos2dx
 tags: [开关控件]
