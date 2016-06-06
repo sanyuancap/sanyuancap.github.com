@@ -77,7 +77,7 @@ tags: [cocos2d-js,ClippingNode]
 [裁剪节点][4]
 
 
-  [1]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/clipping/1.jpg?raw=true
+  [1]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/clipping/1.png?raw=true
   [2]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/clipping/2.gif?raw=true
   [3]: http://blog.csdn.net/teng_ontheway/article/details/45651343
   [4]: http://www.mamicode.com/info-detail-247772.html
