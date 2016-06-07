@@ -2,7 +2,7 @@
 layout: post
 title: "那些让我混乱的概念"
 description: ""
-category: "web"
+category: web
 tags: [前端]
 ---
 {% include JB/setup %}
