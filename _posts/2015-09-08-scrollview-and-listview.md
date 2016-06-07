@@ -1,10 +1,17 @@
 ---
 layout: post
-title: "scrollview and listview"
+title: "cocos2d-js学习之scrollview、listview"
 description: ""
-category: 
-tags: []
+category: cocos2d-js
+tags: [cocos2d-js]
 ---
 {% include JB/setup %}
-##scrollview和listview的区别？
-滚动层是多个方向的，listview是单个方向的。而且listview可以设置模板，使用时替换数据即可。 
+
+cocos2d-js学习之scrollview、listview
+================
+
+scrollview和listview最明显的区别是：
+
+ - scrollview滚动层是多个方向的，listview是单个方向的。
+
+ - 而且listview可以设置模板，使用时替换数据即可。 
