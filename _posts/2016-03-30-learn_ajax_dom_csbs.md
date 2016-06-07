@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "那些让我混乱的概念"
+title: "前端那些让我混乱的概念"
 description: ""
 category: web
 tags: [前端]
 ---
 {% include JB/setup %}
 
-那些让我混乱的概念
+前端那些让我混乱的概念
 =========
 
  - AJAX（Asynchronous JavaScript and XML）
