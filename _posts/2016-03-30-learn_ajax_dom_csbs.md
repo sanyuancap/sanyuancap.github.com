@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "那些让我混乱的概念"
-description: "Egret"
-category: "Egret"
+description: ""
+category: "web"
 tags: [前端]
 ---
 {% include JB/setup %}
