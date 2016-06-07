@@ -1,18 +1,16 @@
 ---
 layout: post
-title: "third part about analyse data software"
+title: "cocos2d-js学习之第三方插件DataEye"
 description: ""
-category: 
-tags: []
+category: cocos2d-js
+tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
+cocos2d-js学习之第三方插件DataEye
+==================
 
-##[DataEye第三方数据分析解决方案--h5版](http://www.dataeye.com/)
-
-![dataeye](http://www.dataeye.com/images/logo.png "dataeye")
-
-操作方法：
+最近项目开发需求，统计数据，用到了第三方插件DataEye，DataEye主要提供玩家分析、渠道分析、付费分析、系统分析等服务。具体的操作方法如下：
 
  * 把dcagent.min.js文件下载在src文件夹
 
@@ -51,3 +49,5 @@ tags: []
             h5Share.share();
         },
 
+
+[DataEye第三方数据分析解决方案--h5版](http://www.dataeye.com/)

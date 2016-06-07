@@ -1,13 +1,16 @@
 ---
 layout: post
-title: "animation"
+title: "cocos2d-js学习之animation"
 description: ""
-category: 
-tags: []
+category: cocos2d-js
+tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-##js中的动画
+cocos2d-js学习之animation
+========================
+
+## js中的动画
 
         //爆炸动画
         /*ctor*/
@@ -23,31 +26,31 @@ tags: []
         this.baozhaSprite.runAction(cc.hide());
         this.addChild(this.baozhaSprite,999);
 
-            /*touchend*/
-            self.baozhaSprite.setPosition(self.blockDatas[tempn].getPosition());
-            self.baozhaSprite.runAction(cc.sequence(
-                cc.show(),
-                cc.animate(self.baozhaanimation),
-                cc.hide()
-            ));
+        /*touchend*/
+        self.baozhaSprite.setPosition(self.blockDatas[tempn].getPosition());
+        self.baozhaSprite.runAction(cc.sequence(
+            cc.show(),
+            cc.animate(self.baozhaanimation),
+            cc.hide()
+        ));
 
-##js中的骨骼动画
+## js中的骨骼动画
 
-        //拖鞋动画
-        ccs.armatureDataManager.addArmatureFileInfo(res.sliperJson);
-        this.armature= new ccs.Armature("xie_DZ");
-        this.armature.getAnimation().play("Stand");
-        this.armature.setPosition(400,400);
-        this.addChild(this.armature,999);
+    //拖鞋动画
+    ccs.armatureDataManager.addArmatureFileInfo(res.sliperJson);
+    this.armature= new ccs.Armature("xie_DZ");
+    this.armature.getAnimation().play("Stand");
+    this.armature.setPosition(400,400);
+    this.addChild(this.armature,999);
 
-*遇到的bug：
-cocos2d js导入cocostudio资源后，执行报错：ccs is not defined.
+## 遇到的bug：
+cocos2d-js导入cocostudio资源后，执行报错：`ccs is not defined`.
 
-*解决方法：
+## 解决方法：
 要在project.json模块中导入 cocostudio，
 "modules" : ["menus","cocos2d", "extensions", "external"],
 
-*找到播放的帧的名称
+## 找到播放的帧的名称
 
             "animation_data": [
                 {

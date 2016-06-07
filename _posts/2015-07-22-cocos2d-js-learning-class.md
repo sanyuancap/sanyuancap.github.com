@@ -1,18 +1,17 @@
 ---
 layout: post
-title: "(3)class"
+title: "cocos2d-js学习之class"
 description: ""
-category: 
-tags: []
+category: cocos2d-js
+tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-##创建新的类
-创建一个文件叫做blockSprite.js:
+cocos2d-js学习之class
+====================
 
-        /**
-         * Created by chengjy on 15/7/22.
-         */
+## 创建新的类
+创建一个文件叫做blockSprite.js:
 
             /**
              + -----状态：
@@ -32,16 +31,10 @@ tags: []
                     showIcecream : function(){
                        this.spriteB.setTexture(res.planeImg);
                     }
-
-
-
                 }
-
         );
 
-
-
-##调用该类
+## 调用该类
 
         //创建block元素
         this.blockDatas = [];
@@ -53,6 +46,6 @@ tags: []
         }
 
 
-##遇到的问题
-*在ctor（）函数中没有调用```this._super();```所以出错。
-*控制台的错误提示简直就是0，只能注释代码运行，判断哪个模块出错。
+## 遇到的问题
+ * 在ctor（）函数中没有调用```this._super();```所以出错。 
+ * 控制台的错误提示简直就是0，只能注释代码运行，判断哪个模块出错。

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "cocos2dx图片特效之闪光效果"
+title: "cocos2d-js学习之图片特效之闪光效果"
 description: ""
 category: cocos2d-js
 tags: [cocos2d-js,ClippingNode]

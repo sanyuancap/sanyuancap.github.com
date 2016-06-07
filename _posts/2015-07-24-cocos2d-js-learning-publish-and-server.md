@@ -1,35 +1,43 @@
 ---
 layout: post
-title: "publish and server"
+title: "cocos2d-js学习之publish、server"
 description: ""
-category: 
-tags: []
+category: cocos2d-js
+tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-发布游戏服务器登录操作
+cocos2d-js学习之publish、server
+==============================
+
+## 发布游戏服务器登录操作
 
     //同步
-    rsync -auxvp /Users/chengjy/Desktop/projects/min_nmddl/Nmddl/publish/html5/  root@223.252.196.144:/data/static/nmddl
+    rsync -auxvp /Users/xxx/Desktop/projects/min_nmddl/Nmddl/publish/html5/  root@xxx.xxx.xxx.xxx:/data/static/nmddl
+
     //登录
-    ssh -p 16322 root@223.252.196.144
+    ssh -p 16322 root@xxx.xxx.xxx.xxx
     cd /data/static/
+
     //修改权限
     chmod -R 755 ProjectName
+
     //访问测试地址：
     http://xxx/static/nmddl/index.html
 
     //发布正式地址：
     http://xxx/cdn/nmddl/index.html
+
     //登录
-    ssh xxx@223.252.196.81
+    ssh xxx@xxx.xxx.xxx.xxx
+
     //根目录 创建nmddl文件夹
-    rsync -auxvp /Users/ycma/Desktop/projects/min_nmddl/Nmddl/publish/html5/ chengjy@223.252.196.81:~/nmddl
+    rsync -auxvp /Users/ycma/Desktop/projects/min_nmddl/Nmddl/publish/html5/ xxx@xxx.xxx.xxx.xxx:~/nmddl
     su -
     da#@I*O(
     cp -r /home/ycma/nmddl/*  /data/static/nmddl/
 
-##bugs
+## bugs
 
  * 本机使用rsync同步时报错：
 

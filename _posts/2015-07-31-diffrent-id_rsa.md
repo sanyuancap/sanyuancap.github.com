@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "diffrent id_rsa"
+title: "ssh秘钥冲突的解决办法"
 description: ""
-category: 
-tags: []
+category: mac
+tags: [mac]
 ---
 {% include JB/setup %}
 
+ssh秘钥冲突的解决办法
+============
+
 我本身有git的ssh秘钥，用于登录github和发布博客。但是最近开始开发了几款h5游戏，需要在测试服上面测试，直接导致的问题就是，我的ssh秘钥冲突了！
 
-##解决办法
-[参考链接](http://www.leeyupeng.com/2011/11/multiple-ssh-private-keys/)
-
+## 解决办法
 
  * 首先把测试服的秘钥设置为id_rsa与id_rsa.pub
  * 测试检验可以登入测试服
@@ -46,6 +47,7 @@ tags: []
         192.30.252.128 ssh-rsa AAAA...FAaQ==
 
 
+[参考链接](http://www.leeyupeng.com/2011/11/multiple-ssh-private-keys/)
 
 
 
