@@ -1,13 +1,17 @@
 ---
 layout: post
-title: "config time"
+title: "cocos2dx-js学习之日期格式转换"
 description: ""
-category: 
-tags: []
+category: cocos2dx-js
+tags: [cocos2dx-js]
 ---
 {% include JB/setup %}
-##cocos2dx-js
-将当前日期改成自定义格式：2015-11-5--17：10：20
+
+cocos2dx-js学习之日期格式转换
+==============
+
+最近项目遇到一个问题，要把当前时间转换成某些固定的格式，比如将当前日期改成自定义格式：2015-11-5--17：10：20，其实实现原理很简单，就是根据格式，分析年月日结果，然后展现出来。上网搜了下，有很多例子：
+
 
     Date.prototype.format = function(pattern) {
         /*初始化返回值字符串*/
@@ -36,17 +40,10 @@ tags: []
         }
         return returnValue;
     };
-    // 测试
-    alert(
-            new Date().format("HH:mm:ss S")
-            * "\n"
-            * new Date().format("yyyy-MM-dd a hh:mm:ss S")
-            * "\n"
-            * new Date().format("y-M-d a h:m:s")
-            * "\n"
-            * new Date().format("y-M-d H:m:s S")
-            * "\n"
-            * new Date().format("yyyy-MM-dd HH:mm:ss")
-            * "\n"
-            * new Date().format("yyyy年MM月dd日 HH时mm分ss秒")
-    );
+
+
+
+[参考资料][1]
+
+
+  [1]: http://hanqilong2006.blog.163.com/blog/static/34590531201371172839875/

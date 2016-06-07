@@ -1,5 +1,16 @@
+---
+layout: post
+title: "cocos2d-js学习之创建位图字体"
+description: ""
+category: cocos2d-js
+tags: [位图字体]
+---
+{% include JB/setup %}
 
+cocos2d-js学习之创建位图字体
+===================
 
+有了glyphDesigner之后，创建位图字体的过程相对轻松，试着调节GlyphDesigner中各种旋钮、按钮和颜色可以看到不同效果。
 
 //造字 glyphDesigner bmfont
                 this.lbScore = new cc.LabelBMFont("Score: 0", res.arial_14_fnt);
