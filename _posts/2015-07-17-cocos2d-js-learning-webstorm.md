@@ -72,6 +72,15 @@ WebStorm自带Terminal终端，比较方便。
  - 自己在终端配置文件中配置一个：
 ```alias cjyrun='cocos run -p web'```，以后每次运行cjyrun，不用苦逼的敲代码了
 
+## 低容量？
+
+ - 错误描述：
+
+		low disk space on a webstorm system directory partition
+
+
+解决办法：在`.//Applications/WebStorm.app/Contents/bin/idea.properties`
+下，修改`idea.no.system.path.space.monitoring=true`配置就可以了。
 
 [ws]:http://www.uzzf.com/soft/95516.
 [jb]:https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji
