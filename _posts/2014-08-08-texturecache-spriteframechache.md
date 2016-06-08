@@ -7,8 +7,6 @@ tags: [TextureCache,SpriteFrameChache]
 ---
 {% include JB/setup %}
 
-TextureCache和SpriteFrameChache对比
-================================
 
 CCSpriteFrameCache(拼接过的图片)
 ------------------

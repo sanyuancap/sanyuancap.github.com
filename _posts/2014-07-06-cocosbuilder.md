@@ -7,8 +7,6 @@ tags: [cocosbuilder]
 ---
 {% include JB/setup %}
 
-cocosbuilder属性对照
-================
 
  - position var：位置范围
  - start  spin：开始时颤抖震动数值

@@ -7,9 +7,6 @@ tags: [cocos2d-lua]
 ---
 {% include JB/setup %}
 
-cocos2d-lua学习之tilemapZorder
-============
-
 ## 设置障碍物
 
 	bool HelloWorld::isPositionBlock(CCPoint position)

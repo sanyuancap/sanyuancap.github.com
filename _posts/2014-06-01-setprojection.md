@@ -7,8 +7,6 @@ tags: [Bug, 闪烁]
 ---
 {% include JB/setup %}
 
-Bug记录：图片闪烁问题
-============
 
 Bug描述：
 ------

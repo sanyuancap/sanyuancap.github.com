@@ -7,8 +7,6 @@ tags: [CREATE_FUNC]
 ---
 {% include JB/setup %}
 
-关于CREATE_FUNC宏定义
-================
 
  - 创建自定义的CCNode类
 

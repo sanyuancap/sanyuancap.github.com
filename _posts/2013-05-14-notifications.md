@@ -8,8 +8,6 @@ tags: [推送,cocos2d]
 {% include JB/setup %}
 
 
-关于推送notifications的代码记录
-=================
 
     /*推送代码*/
     [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];

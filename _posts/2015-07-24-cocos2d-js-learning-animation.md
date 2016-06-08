@@ -7,9 +7,6 @@ tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之animation
-========================
-
 ## js中的动画
 
         //爆炸动画

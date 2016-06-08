@@ -7,8 +7,6 @@ tags: [前端]
 ---
 {% include JB/setup %}
 
-前端那些让我混乱的概念
-=========
 
  - AJAX（Asynchronous JavaScript and XML）
 

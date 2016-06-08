@@ -7,8 +7,6 @@ tags: [Bug]
 ---
 {% include JB/setup %}
 
-Bug记录：continue and break
-======================
 
 bug描述：
 ------

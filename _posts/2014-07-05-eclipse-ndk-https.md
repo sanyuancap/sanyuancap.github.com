@@ -7,8 +7,6 @@ tags: [环境,Android,Eclipse]
 ---
 {% include JB/setup %}
 
-MAC下Android的Eclipse开发环境的搭建
-==
 
 Eclipse的下载
 ----------

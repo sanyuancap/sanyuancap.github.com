@@ -7,8 +7,6 @@ tags: [drawLine]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之drawLine
-===================
 
 其实js和cocos2dx开发起来大同小异，就连划线函数的名字都差不多。进而联想到调用方法和参数也都差不多。举个栗子：
 

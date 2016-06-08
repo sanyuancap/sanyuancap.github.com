@@ -7,8 +7,6 @@ tags: [适配]
 ---
 {% include JB/setup %}
 
-cocos2d如何适配iphone适配
-========
 
 cocos2d已经更新到了最新的版本 cocos2d-iphone-2.1-beta4。这个版本完美支持iphone 5.
 以后的文件可以不用再进行特别的iphone5判断，只用对图片的后缀做一些命名就可以了。

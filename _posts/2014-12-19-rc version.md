@@ -7,8 +7,6 @@ tags: [RC版]
 ---
 {% include JB/setup %}
 
-RC版本的含义
-=======
 
 > RC：(Release　Candidate)
 

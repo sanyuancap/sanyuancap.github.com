@@ -7,9 +7,6 @@ tags: [iterater]
 ---
 {% include JB/setup %}
 
-But记录：iterater
-==============
-
 Bug描述：
 ------
 

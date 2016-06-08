@@ -7,9 +7,6 @@ tags: [Bug,setTextureRect]
 ---
 {% include JB/setup %}
 
-Bug记录：setTextureRect
-====================
-
 Bug描述：
 ------
 

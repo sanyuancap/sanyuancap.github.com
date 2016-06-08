@@ -8,8 +8,6 @@ tags: [webstorm]
 {% include JB/setup %}
 
 
-cocos2d-js学习之webstorm
-=====================
 
 js的开发工具有很多，除了Webstorm，cocos code ide也是一种选择。之前有用过cocos code ide开发过几个小游戏，也是只会做一些浅层次的小游戏。现在有时间就深入了解一下js。
 

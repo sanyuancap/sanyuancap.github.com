@@ -7,8 +7,6 @@ tags: [bug]
 ---
 {% include JB/setup %}
 
-Bug记录：动画播放错乱
-=========
 
 描述：
 ---

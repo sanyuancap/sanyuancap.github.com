@@ -7,8 +7,6 @@ tags: [cocos2d-lua]
 ---
 {% include JB/setup %}
 
-cocos2d-lua学习之最佳lua开发工具
-==============
 
 ## cocos IDE
 

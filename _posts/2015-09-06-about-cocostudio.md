@@ -7,8 +7,6 @@ tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之cocostudio
-==============
 
 ## COCOSTUDIO
  * 新建时要选择类型，js或者lua，否则导出会出错

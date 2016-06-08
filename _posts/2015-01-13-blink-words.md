@@ -7,8 +7,6 @@ tags: [cocos2d-js,ClippingNode]
 ---
 {% include JB/setup %}
 
-如果制作闪光效果
-========
 
 ![clip][1]
 

@@ -7,8 +7,6 @@ tags: [cocos2dx,CCTextureCache]
 ---
 {% include JB/setup %}
 
-cocos2dx学习之CCTextureCache
-=========================
 CCTextureCache原理大致分几步：
 
  1. 创建线程，用于后台加载

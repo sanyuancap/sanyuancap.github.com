@@ -7,9 +7,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-c++箭头和点和双冒号操作符
-==============
-
     class PS { 
         public: 
         int ca_var; 

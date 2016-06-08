@@ -7,8 +7,6 @@ tags: [cocos2dx]
 ---
 {% include JB/setup %}
 
-XCode6.0、7.0的iOS免证书真机测试方法
-=====================
 
 XCode7.0
 --------

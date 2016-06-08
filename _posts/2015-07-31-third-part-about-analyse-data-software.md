@@ -7,8 +7,6 @@ tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之第三方插件DataEye
-==================
 
 最近项目开发需求，统计数据，用到了第三方插件DataEye，DataEye主要提供玩家分析、渠道分析、付费分析、系统分析等服务。具体的操作方法如下：
 

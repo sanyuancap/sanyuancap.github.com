@@ -7,8 +7,6 @@ tags: [ParallaxNode]
 ---
 {% include JB/setup %}
 
-曲线的实现
-================
 
 曲线的绘制有很多种方法。在开发中选择适合自己的方法很重要。
 CCMotionStreak

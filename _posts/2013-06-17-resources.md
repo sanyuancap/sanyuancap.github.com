@@ -7,9 +7,6 @@ tags: [Bug]
 ---
 {% include JB/setup %}
 
-Bug记录：资源去重resources
-===================
-
 系统报错：
 -----
 

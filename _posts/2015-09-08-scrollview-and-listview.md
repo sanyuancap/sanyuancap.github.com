@@ -7,9 +7,6 @@ tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之scrollview、listview
-================
-
 scrollview和listview最明显的区别是：
 
  - scrollview滚动层是多个方向的，listview是单个方向的。

@@ -7,9 +7,6 @@ tags: [cocos2dx]
 ---
 {% include JB/setup %}
 
-cocos2dx学习之优化
-==============
-
 
 ## 引擎优化
 cocos2dx-2.0用openGL ES 2.0图形库

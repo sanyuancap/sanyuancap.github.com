@@ -7,8 +7,6 @@ tags: [Android]
 ---
 {% include JB/setup %}
 
-win32下发布android版本
-=========================
 
 准备工具：
 -----

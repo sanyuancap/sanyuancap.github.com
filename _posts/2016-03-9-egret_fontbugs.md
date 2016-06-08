@@ -7,8 +7,6 @@ tags: [Egret]
 ---
 {% include JB/setup %}
 
-Egret学习之字体
-=============
 
  - But描述：egretEngine3.0.3的button字体存在bug——在chrome浏览器点击button，button上的字体会变小
 

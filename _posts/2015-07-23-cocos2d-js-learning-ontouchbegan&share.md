@@ -7,8 +7,6 @@ tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之this和self
-=========================
 
 遇到的问题：
 ---------

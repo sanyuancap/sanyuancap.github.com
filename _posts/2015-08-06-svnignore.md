@@ -7,8 +7,6 @@ tags: [Cornerstone]
 ---
 {% include JB/setup %}
 
-怎样忽略Cornerstone的提交文件
-==================
 
 ## 怎样忽略
 

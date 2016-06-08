@@ -7,8 +7,6 @@ tags: [mac]
 ---
 {% include JB/setup %}
 
-mac终端命令之定时关机
-==============
 
 
     sudo shutdown -h 1601041800

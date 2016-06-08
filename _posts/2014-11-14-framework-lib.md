@@ -7,8 +7,6 @@ tags: [framework,lib]
 ---
 {% include JB/setup %}
 
-framework和lib的区别
-================
 
 [参考文档](http://sauzny.iteye.com/blog/1699880)
 

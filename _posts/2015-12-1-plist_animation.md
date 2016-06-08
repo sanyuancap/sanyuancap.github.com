@@ -7,8 +7,6 @@ tags: [Animation,plist]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之plist、Animation
-================
 
 项目中经常会用到动作，原画甩给你plist文件和图片后，该怎么处理呢？
 

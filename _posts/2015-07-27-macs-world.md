@@ -7,8 +7,6 @@ tags: [.bash_profile]
 ---
 {% include JB/setup %}
 
-我的.bash_profile配置
-===================
 
 ## 怎样在命令行中用sublime打开文本文档？
 

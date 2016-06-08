@@ -7,8 +7,6 @@ tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之publish、server
-==============================
 
 ## 发布游戏服务器登录操作
 

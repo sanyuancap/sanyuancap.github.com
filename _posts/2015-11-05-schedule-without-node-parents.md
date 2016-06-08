@@ -7,8 +7,6 @@ tags: [scheduleUpdate]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之scheduleUpdate
-================
 
  - Bug描述：
 

@@ -7,9 +7,6 @@ tags: [Egret]
 ---
 {% include JB/setup %}
 
-Egret学习之函数
-=============
-
 
  - complete: () => void
 

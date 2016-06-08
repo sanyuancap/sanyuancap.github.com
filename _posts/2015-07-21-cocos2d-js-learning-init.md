@@ -7,8 +7,6 @@ tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之js语法
-====================
 
 ## 语法
 js的语法很随意，比如说```cc.log("cjy" + 123);```，不用%d、%s等的乱入，感觉不错。

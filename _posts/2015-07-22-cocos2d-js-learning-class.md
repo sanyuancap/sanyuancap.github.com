@@ -7,8 +7,6 @@ tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
-cocos2d-js学习之class
-====================
 
 ## 创建新的类
 创建一个文件叫做blockSprite.js:

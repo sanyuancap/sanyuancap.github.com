@@ -7,8 +7,6 @@ tags: [Egret]
 ---
 {% include JB/setup %}
 
-Egret学习之基础篇
-==============
 
  - 语法糖：吃一颗糖开心一下吧
 
