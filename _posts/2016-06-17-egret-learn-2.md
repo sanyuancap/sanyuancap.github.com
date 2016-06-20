@@ -56,13 +56,27 @@ tags: [Egret]
 > RenderTexture是动态纹理类，可以实现讲一个显示对象及其子对象绘制成纹理。
 
  
- 
     var rt:egret.RenderTexture = new egret.RenderTexture;
     rt.drawToTexture( this._contMotion, this._rectClip );//将指定显示对象绘制成一个纹理
     this._bmpSnap.texture = rt;
 
 
+----------
+
+ - 9宫格
+
+按钮或者背景图的边角，常常是圆角形状的，这也是美术妹子们的心血。但是如果对圆角进行拉伸缩放，圆角的圆弧就会失真，因为没有等比缩放，所以显得很丑。
+
+根据UI边角特征，可以吧UI切成九部分，其中保持四个角部分原始显示，对边框和中心部分进行维持图像原始品质的拉伸，从而获得风格统一且灵活可调尺寸的UI。
+
+![jiugongge][4]
+
+        //左上角的矩形边长84，中心矩形边长是572
+        this._bmpUIUse9.scale9Grid = new egret.Rectangle( 84,84,572,572 );
+        
+
 
   [1]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/egret1/yuanhu.png?raw=true
   [2]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/egret1/zangjuxing.png?raw=true
   [3]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/egret1/tupianhuancun.png?raw=true
+  [4]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/egret1/jiugongge.png?raw=true
