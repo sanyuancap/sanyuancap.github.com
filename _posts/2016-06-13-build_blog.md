@@ -117,7 +117,7 @@ tags: [web,博客]
  很多时候，在安装gem的过程中会出现找不到资源的error，理由是什么就不多说了。这时候我们需要从另外一个gem服务器下载安装。通过`gem sources` 命令配置源，或通过修改Gemfile中的source语句可以实现。
 
         //常用的源
-        http://rubygems.org/
+        https://rubygems.org/
         http://gems.github.com
         http://gems.rubyforge.org
         http://ruby.taobao.org 
@@ -136,7 +136,7 @@ tags: [web,博客]
 
  我遇到的报错：
 
-        Dependency Error: Yikes! It looks like you don't have rdiscount or one of its dependencies installed……
+        Dependency Error: Yikes! It looks like you don't have jekyll-sitemap or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-sitemap' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/! 
 
  缺少了组件，我的解决办法是：`$ gem install jekyll-sitemap`，安装完成就好使了。
   
