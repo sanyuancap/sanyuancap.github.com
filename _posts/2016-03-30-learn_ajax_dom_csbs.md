@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "前端那些让我混乱的概念"
+title: "前端初步"
 description: ""
 category: web
 tags: [前端]
