@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: 来自艾泽拉斯的一封密码信!
 tagline: Life is but a span.
 ---
 {% include JB/setup %}
