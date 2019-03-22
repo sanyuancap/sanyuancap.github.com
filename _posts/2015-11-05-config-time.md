@@ -2,8 +2,8 @@
 layout: post
 title: "cocos2dx-js学习之日期格式转换"
 description: ""
-category: cocos2dx-js
-tags: [cocos2dx-js]
+category: cocos2d-js
+tags: [cocos2d-js]
 ---
 {% include JB/setup %}
 
