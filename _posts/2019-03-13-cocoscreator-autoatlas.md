@@ -11,6 +11,14 @@ tags: [cocos2d-js]
  
 将指定的一系列碎图打包成一张大图，具体作用和 Texture Packer 的功能很相近。
 
+![autoatlas][6]
+
+创建图集的方法：
+
+![autoatlas][4]
+
+图集的基本参数：
+
 ![autoatlas][1]
 
  - 优点
@@ -22,6 +30,8 @@ tags: [cocos2d-js]
 
 TinyPNG在一个在线图片压缩工具，这个压缩率很高，有50%-70%，而且几乎不损失画质。 由于是在线，所以在网页上上传下载就显得有些繁琐，不过最近github上出现一个TinyPNG的mac客户端，简直就是神作。
 
+![tinyPNG][5]
+
 [github 上的 TinyPNG4Mac][2]
 
 另外要提的是，使用 TinyPNG4Mac 需要 TinyPNG 的 API，你可以在后者官网免费申请到。
@@ -32,3 +42,6 @@ TinyPNG在一个在线图片压缩工具，这个压缩率很高，有50%-70%，
   [1]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/cocos-creator/cocos-creator-autoatlas.png?raw=true
   [2]: https://github.com/kyleduo/TinyPNG4Mac
   [3]: https://sspai.com/post/41979
+  [4]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/cocos-creator/cocos-creator-autoatlas2.png?raw=true
+  [5]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/cocos-creator/cocos-creator-TinyPNG4Mac.png?raw=true
+  [6]: https://github.com/sanyuancap/sanyuancap.github.com/blob/master/assets/blogImg/cocos-creator/cocos-creator-autoatlas3.png?raw=true

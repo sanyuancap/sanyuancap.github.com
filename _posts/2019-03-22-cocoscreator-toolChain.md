@@ -53,7 +53,7 @@ TexturePacker控制的参数比较多，常用的参数如下：
 
 cocosBuilder是cocos团队负责开发维护的界面拼接工具，是cocos creator的前身，在cocos creator推出后，团队逐渐舍弃了cocosBuilder，停止了维护和版本迭代，但是ccbi文件仍然支持。
 
-![cocosBuilder][8]
+![cocosBuilder][9]
 
        cocosBuilder工程会产生3类文件，后缀分别为ccbproj, ccb, ccbi，其中ccbproj和ccb是项目工程文件、界面文件，而ccbi是导出的文件，被cocos2dx程序使用。
 
@@ -61,7 +61,7 @@ cocosBuilder是cocos团队负责开发维护的界面拼接工具，是cocos cre
 
 Glyph Designer的一大优势就是可以支持汉字录入，可以通过Included Glyphs（收录文字）面板来实现。比起Photoshop或Illuetrator，它的功能显得比较简单。
 
- ![GlyphDesigner][8]
+ ![GlyphDesigner][10]
 
 [GlyphDesigner详细介绍][11]
 
@@ -104,7 +104,9 @@ Tiled是一款地图编辑器。我们常用它编辑一些相似度很大的背
 附引擎相关源码：
 
 [cocos引擎源码][1]
+
 [cocos2d-js-demo][3]
+
 [cocos论坛：推荐官网中文论坛][4]
 
   
