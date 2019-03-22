@@ -61,6 +61,17 @@ tags: [web,博客]
         ## 这是 H2 ##
         ### 这是 H3 ######
 
+ - jekyll 目录结构
+
+如下：
+
+       /jekyll_demo
+       |--　_config.yml
+       |--　_layouts
+       |　　　|--　default.html
+       |--　_posts
+       |　　　|--　2012-08-25-hello-world.html
+       |--　index.html 
 
 ----------
 
@@ -107,53 +118,59 @@ tags: [web,博客]
 还是要吐槽下遇到的坑
 ----------
 
-首先是jekyll的缺点
+ - 首先是jekyll的缺点
 
 
  1. 它生成的是静态网页，添加动态功能必须使用外部服务，比如评论功能就只能用disqus。
  2. 它不适合大型网站，因为没有用到数据库，每运行一次都必须遍历全部的文本文件，网站越大，生成时间越长。
 
 
+ - 安装失败
+
  很多时候，在安装gem的过程中会出现找不到资源的error，理由是什么就不多说了。这时候我们需要从另外一个gem服务器下载安装。通过`gem sources` 命令配置源，或通过修改Gemfile中的source语句可以实现。
 
-        //常用的源
-        https://rubygems.org/
-        http://gems.github.com
-        http://gems.rubyforge.org
-        http://ruby.taobao.org 
-        
-        //显示当前使用的sources
-        gem sources
-        
-        //添加一个source
-        gem sources -a url地址
-        
-        //删除一个source
-        gem sources -r url地址
-        
-        //更新source cache
-        gem sources -u
+       //常用的源
+       https://rubygems.org/
+       http://gems.github.com
+       http://gems.rubyforge.org
+       http://ruby.taobao.org 
 
- 我遇到的报错：
+       //显示当前使用的sources
+       gem sources
 
-        Dependency Error: Yikes! It looks like you don't have jekyll-sitemap or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-sitemap' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/! 
+       //添加一个source
+       gem sources -a url地址
 
- 缺少了组件，我的解决办法是：`$ gem install jekyll-sitemap`，安装完成就好使了。
+       //删除一个source
+       gem sources -r url地址
+
+       //更新source cache
+       gem sources -u
+
+ - 安装报错
+
+问题打印，缺少了组件jekyll-sitemap
+
+       Dependency Error: Yikes! It looks like you don't have jekyll-sitemap or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-sitemap' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/! 
+
+解决办法：`$ gem install jekyll-sitemap`，安装完成就好使了。
   
   
-        missing：
-        /assets/themes/css/style.css
-        /assets/themes/css/syntax.css
+       missing：
+       /assets/themes/css/style.css
+       /assets/themes/css/syntax.css
         
+ - 权限问题
+
  本地浏览很丑，就因为缺少了css文件。
  
  ![cssMissing][9]
  
  可是为什么缺少了css样式文件，我直接clone下来，都没改过，难道是bootstrap出错了吗？在其他文件夹里找找吧，反正我是在themes/twitter/css里找到了。
 
-         You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+       You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
 
- 权限不足，那就改权限吧：把权限修改过来用命令`sudo chmod 777 /Library/Ruby/Gems/2.0.0`
+权限不足，那就改权限吧：把权限修改过来用命令`sudo chmod 777 /Library/Ruby/Gems/2.0.0`
 
 
 ----------
@@ -162,7 +179,7 @@ tags: [web,博客]
 参考资料
 -----
 
-[jekyll官网][10]
+[jekyll快速上手][10]
 
 [jekyll目录结构说明][11]
 
