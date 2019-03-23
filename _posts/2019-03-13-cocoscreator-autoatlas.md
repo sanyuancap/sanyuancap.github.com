@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "cocos2d-creator学习之切图"
+title: "cocos2d-creator学习之图集"
 description: ""
 category: cocos2d-js
 tags: [cocos2d-js]
