@@ -15,7 +15,8 @@
         
         <div id="amazon_ws" class="step real-step" data-x="5500" data-y="1400" data-z="1700" data-rotate-x="30" data-rotate-y="-30" data-rotate-z="10" data-scale="10">
             <p class="text-center amazontm">坐标</p>
-            <p class="text-center amazonwb">整个空间的中心是原点（0，0，0）</p>
+            <p class="text-center amazonwb">整个空间的中心是原点（0，0，0）。</p>
+            <p > </p>
             <p class="real-fade">
                 impress.js创建了一个三维空间，所有的幻灯片都有各自的位置坐标（x，y，z）。
             </p>
@@ -23,10 +24,10 @@
 
         <div id="definition" class="step real-step" data-x="-1550" data-y="700" data-z="1450" data-rotate-x="15" data-rotate-y="-110" data-rotate-z="15" data-scale="1">
             <div class="real-fade slide">
-                <h1>Nostalgia of slides ?</h1>
-                <p style="text-align: left;">
-                    Just add another CSS class for create this <b>nice white box</b>.
-                </p>
+                <h1>只有x和y坐标是必须的。</h1>
+                <p style="text-align: left;">data-x——表示x轴坐标</p>
+                <p style="text-align: left;">data-y——表示y轴坐标。</p>
+                <p style="text-align: left;">data-z——表示z轴坐标。</p>
             </div>
         </div>
 
@@ -35,8 +36,8 @@
             <div class="backFace cubeFace step" data-x="0" data-y="0" data-z="-700" data-rotate-x="0" data-rotate-y="-180" data-rotate-z="0" data-scale="1"></div>
             <div id="speed-agility" class="topFace cubeFace real-step step" data-x="0" data-y="-350" data-z="-350" data-rotate-x="90" data-rotate-y="0" data-rotate-z="0" data-scale="1">
                 <div class="real-fade white shadow">
-                    <h1>With great powers comes great responsibilities</h1>
-                    <p>Use the data rotate parameter in the right way otherwise you will be trapped in the CUBE</p>
+                    <h1>旋转</h1>
+                    <p>正值表示按照相应的轴顺时针旋转，负值则是逆时针。</p>
                 </div>
             </div>
             <div class="bottomFace cubeFace step" data-x="0" data-y="350" data-z="-350" data-rotate-x="-90" data-rotate-y="0" data-rotate-z="0" data-scale="1"></div>
@@ -46,9 +47,9 @@
 
         <div class="step real-step" data-x="1600" data-y="-1700" data-z="2400" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="6">
             <div class="real-fade">
-                <h1>Red pill or blue pill</h1>
+                <h1>缩放</h1>
                 <p style="font-size: 0.5em;">
-                    Steps don't need to contain infos, but they can change your point of view.
+                    data-scale表示这张幻灯片的放大缩小量。
                 </p>
             </div>
         </div>
@@ -92,8 +93,10 @@
 
         <div id="apps" class="step real-step" data-x="1600" data-y="0" data-z="700" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
             <div class="real-fade slide">
-                <h1>Jump some steps</h1>
-                <p style="font-size:0.9em;">Sometimes you just want to show "real-step" in your presentation.<br/> Discover more by looking at the navigator.js file</p>
+                <h1>markdown</h1>
+                <p style="font-size:0.9em;">
+                    class="step markdown"
+                </p>
             </div>
         </div>
 
